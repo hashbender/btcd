@@ -16,7 +16,7 @@ env:
 
 jobs:
   build-push:
-    runs-on: ubuntu-latest
+    runs-on: tenki-standard-autoscale
     permissions:
       contents: read
       packages: write
